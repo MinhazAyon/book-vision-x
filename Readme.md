@@ -16,7 +16,7 @@ Explore and test the website here: [MN-Predict Unknown and Unseen](https://mn-fr
 
 - [Project Overview](#project-overview)
 - [Project Highlights](#project-highlights)
-- [Dataset](#dataset)
+- [Datasets](#datasets)
 - [Installation](#installation)
 - [License](#license)
 - [Contact](#contact)
@@ -81,8 +81,8 @@ cd book-vision-x
 2. Create a virtual environment and activate it:
 ```bash
 python -m venv expenv
-source venv/bin/activate     # Linux/macOS
-venv\Scripts\activate        # Windows
+source expenv/bin/activate     # Linux/macOS
+expenv\Scripts\activate        # Windows
 ```
 
 3. Install dependencies:
