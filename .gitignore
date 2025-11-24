@@ -1,0 +1,87 @@
+## -----------------
+# Frontend (React/Next.js)
+## -----------------
+
+# Node dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/versions
+
+# Testing coverage
+frontend/coverage/
+
+# Next.js build/output
+frontend/.next/
+frontend/out/
+
+# Production build
+frontend/build/
+
+# Miscellaneous
+frontend/.DS_Store
+frontend/*.pem
+
+# Debug logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# Environment files
+frontend/.env*
+
+# Vercel
+frontend/.vercel/
+
+# TypeScript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+
+## -----------------
+# Backend (Python/FastAPI)
+## -----------------
+
+# Python compiled files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Virtual environments
+backend/venv/
+backend/bvxenv/
+backend/.env
+
+# Editable install / egg-info
+backend/src/bookvision_recommendation_system.egg-info/
+backend/*.egg-info/
+
+# Distribution / packaging
+backend/dist/
+backend/build/
+backend/*.egg
+backend/*.whl
+
+# Jupyter Notebook checkpoints
+backend/.ipynb_checkpoints/
+
+# IDE / editor settings
+backend/.vscode/
+backend/.idea/
+backend/*.sublime-project
+backend/*.sublime-workspace
+
+# OS files
+backend/.DS_Store
+backend/Thumbs.db
+
+# Logs
+backend/*.log
+
+# dotenv files containing secrets
+backend/.env

@@ -1,0 +1,20 @@
+[project]
+name = "bookvisionx"
+version = "0.1.0"
+description = "Recommend Books from Image."
+authors = [
+    { name = "Minhaz Uddin", email = "minhaz182219@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [] 
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

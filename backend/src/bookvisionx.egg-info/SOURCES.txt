@@ -1,0 +1,17 @@
+pyproject.toml
+src/bookvisionx.egg-info/PKG-INFO
+src/bookvisionx.egg-info/SOURCES.txt
+src/bookvisionx.egg-info/dependency_links.txt
+src/bookvisionx.egg-info/top_level.txt
+src/core/__init__.py
+src/core/bookvision/book_info.py
+src/core/bookvision/extractor.py
+src/core/bookvision/similarity.py
+src/core/bookvision/vision.py
+src/core/bookvision/yolo_worker.py
+src/core/evaluation/performance.py
+src/core/process/helper.py
+src/core/utils/__init__.py
+src/core/utils/file_manager.py
+src/core/utils/io.py
+src/core/utils/logger.py
