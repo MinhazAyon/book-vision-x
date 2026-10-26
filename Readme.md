@@ -8,6 +8,7 @@ BookVisionX – AI Book Recommender System makes finding books easier by combini
 
 Furthermore, a React + Next.js web application (deployed on Vercel) serves as the frontend. It communicates with a standalone FastAPI backend—responsible for hosting datasets and ML models—by sending user inputs and rendering the returned recommendations.
 
+Video available in LinkedIn: [Minhaz Uddin](https://lnkd.in/p/gazbauY6)
 Explore and test the website here: [MN-Predict Unknown and Unseen](https://mn-frontend-pages.onrender.com)
 
 --- 
